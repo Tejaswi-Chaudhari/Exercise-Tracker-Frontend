@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import '../styles.css'
 
 export default class CreateUser extends Component {
 
@@ -53,7 +54,7 @@ export default class CreateUser extends Component {
                     </div>
                     <br></br>
                     <div className="form-group">
-                        <input type="submit" value="Create User" className="btn btn-dark" />
+                        <input type="submit" value="Create User" className="btn" />
                     </div>
                 </form>
             </div>

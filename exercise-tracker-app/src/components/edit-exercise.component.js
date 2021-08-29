@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css"
+import '../styles.css'
 
 export default class EditExercise extends Component {
 
@@ -126,6 +127,7 @@ export default class EditExercise extends Component {
                         <label>Date: </label>
                         <div>
                             <DatePicker
+                                className="form-control"
                                 selected={this.state.date}
                                 onChange={this.onChangeDate}
                             />
@@ -133,7 +135,7 @@ export default class EditExercise extends Component {
                     </div>
                     <br></br>
                     <div className="form-group">
-                        <input type="submit" value="Edit Exercise Log" className="btn btn-dark" />
+                        <input type="submit" value="Edit Exercise Log" className="btn" />
                     </div>
                 </form>
             </div>

@@ -1,0 +1,73 @@
+.navbar{
+    background-color: #5cdb95;
+}
+
+.navbar .navbar-brand{
+    color: #ffffff;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: #ffffff;
+}
+
+.navbar .navbar-brand:hover{
+    color: #edf5e1;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+    color: #edf5e1;
+}
+
+.navbar-brand{
+    margin-left: 2em;
+}
+
+.whole{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-top: 50px;
+    left: 0;
+    right: 0;
+    background-color: #edf5e1;
+}
+
+.card{
+    padding: 30px;
+    background-color: #edf5e1;
+    border-color: #5cdb95;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.list-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.list-link:hover{
+    text-decoration: none;
+    color: #5cdb95;
+}
+
+.btn{
+    background-color: #5cdb95;
+    color: #ffffff;
+}
+
+.btn:hover{
+    background-color: #edf5e1;
+    border-color: #5cdb95;
+    color: #5cdb95;
+}
+
+.form-control{
+    background-color: #edf5e1;
+    border-color: #5cdb95;
+}
+
+label{
+    margin-top: 10px;
+}

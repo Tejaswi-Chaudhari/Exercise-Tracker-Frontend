@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import '../styles.css'
 
 const Exercise = props => (
     <tr>
@@ -9,7 +10,7 @@ const Exercise = props => (
         <td>{props.exercise.duration}</td>
         <td>{props.exercise.date.substring(0,10)}</td>
         <td>
-            <Link to={"/edit/"+props.exercise._id}>Edit</Link> | <a href="#" onClick={() => { props.deleteExercise(props.exercise._id) }}>Delete</a>
+            <Link className="list-link" to={"/edit/"+props.exercise._id}>Edit</Link> | <a href="#" className="list-link" onClick={() => { props.deleteExercise(props.exercise._id) }}>Delete</a>
         </td>
     </tr>
 )
